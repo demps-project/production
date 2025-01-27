@@ -5,8 +5,9 @@
 Clonar este repositorio e ingresar al directorio creado:
 
 ```
-git clone https://github.com/gabriel-astudillo/demps-prod.git \
-cd demps-prod
+
+git clone https://github.com/demps-project/production.git \
+cd production
 ```
 
 
