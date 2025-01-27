@@ -1,3 +1,13 @@
+.DS_Store
+.vscode
+*.pid
+sim/output
+!*.config
+!*.geojson
+logs/
+conf.d/
+
+
 # Prerequisites
 *.d
 
