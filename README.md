@@ -25,5 +25,5 @@ http://localhost:8000
 Ejemplo de ejecución de una simulación
 
 ```
-docker compose exec  --user=demps-user simulator demps --config /sim/valdivia00.config --outdir /sim/output/test01
+docker compose exec  --user=demps-user simulator demps --config /sim/valdivia.config --outdir /sim/output/test01
 ```
