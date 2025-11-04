@@ -4,7 +4,6 @@ services:
     platform: linux/amd64
     hostname: demps-production
     container_name: simulator
-    platform: linux/amd64
     ports:
       - 8000:80
     volumes:
