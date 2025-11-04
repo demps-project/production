@@ -1,6 +1,7 @@
 services:
   simulator:
     image: gastudil/demps:01.04-production-latest
+    platform: linux/amd64
     hostname: demps-production
     container_name: simulator
     platform: linux/amd64
@@ -15,6 +16,7 @@ services:
       
   oes:
     image: gastudil/oes:01.00 
+    platform: linux/amd64
     hostname: oes
     command: ["python3","/home/oes/openElevationServer.py","--port", "10666"]
     networks:
